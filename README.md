@@ -13,7 +13,7 @@ In another shell:
 ./scripts/demo.sh
 ```
 
-The first request accepts `ord_42` entering `fulfillment_started` and publishes `order.fulfillment_started` on `account:acct_7`. The second returns a short-lived browser token scoped to that account channel. Infrai keeps this as plain REST with one key, so the service needs no notification SDK.
+The first request accepts `ord_42` entering `fulfillment_started` and publishes `order.fulfillment_started` on `account:acct_7`. The second returns a short-lived browser token scoped to that account channel. Infrai works as plain REST with one key, so the service needs no notification SDK.
 
 ## The decision in code
 
